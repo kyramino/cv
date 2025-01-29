@@ -7,28 +7,35 @@
 \RequirePackage{fancyhdr}
 \fancypagestyle{fancy}{
     \fancyhf{}
-    \lhead{
-
-        \href{https://t.me/\telegram}{
-            \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/telegram.png}} @\telegram
-        } \\% Telegram
-        \hspace{0.5cm}\\
-        \href{mailto:\email}{
-            \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/email.png}} \email
-        } % Email
+    \lhead{ \raisebox{5ex}[0pt][0pt]{%
+        \begin{tabular}{p{25em} p{10em}}
+            \href{https://t.me/\telegram}{
+                \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/telegram.png}} @\telegram
+            } \\% Telegram
+            \hspace{0.5cm}\\
+            \href{mailto:\email}{
+                \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/email.png}} \email
+            } % Email
+        \end{tabular}
+    }
     }
     \chead{%
         \centering {\HUGE \skills \name} \\ \vspace{1em}%
         {\color{highlight} \Large{\role}}}%
 
-    \rhead{
-        \href{https://github.com/\github}{
-            \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/github.png}} \github
-        } \\% Github
-        \hspace{0.5cm}\\
-        \href{https://www.linkedin.com/in/\LinkedIn}{
-            \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/linkedin.png}} \LinkedIn
-        } % LinkedIn
+    \rhead{\raisebox{5ex}[0pt][0pt]{%
+        \begin{tabular}{p{8em} p{30em}}
+            \href{https://orcid.org/\orcid}{
+                \raisebox{-1.3ex}{\includegraphics[scale=0.6]{icons/orcid.png}} Sergei Vasilev
+            } \\% Orcid
+            \href{https://github.com/\github}{
+                \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/github.png}} \github
+            } \\% Github
+            \href{https://www.linkedin.com/in/\LinkedIn}{
+                \raisebox{-1.3ex}{\includegraphics[scale=0.4]{icons/linkedin.png}}  \LinkedIn
+            } % LinkedIn
+        \end{tabular}
+    }
     }
 
 
