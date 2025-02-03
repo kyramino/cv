@@ -42,7 +42,7 @@ Last Updated on \today
 \newcommand{\namesection}[2]{
 \centering{
 \fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1
+\fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1
 } \\[5pt]
 \centering{
 \color{headings}
